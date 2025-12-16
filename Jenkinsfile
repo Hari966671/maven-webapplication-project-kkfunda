@@ -8,7 +8,7 @@ pipeline{
         {
             steps
             {
-                git branch: 'dev', url: 'https://github.com/Hari966671/maven-webapplication-project-kkfunda.git'
+                git branch: 'dev1', url: 'https://github.com/Hari966671/maven-webapplication-project-kkfunda.git'
             }
            }
            stage('code compile')
